@@ -3,13 +3,13 @@ $endpoint="https://dimplomworkinstanceofme.cognitiveservices.azure.com/"
 
 
 # Code to call Computer Vision service for image analysis
-$img_file = "store-camera-1.jpg"
-if ($args.count -gt 0 -And $args[0] -in ("store-camera-1.jpg", "store-camera-2.jpg", "store-camera-3.jpg", "store-camera-4.jpg"))
+$img_file = "dog.png"
+if ($args.count -gt 0 -And $args[0] -in ("dog.png", "store-camera-2.jpg", "store-camera-3.jpg", "store-camera-4.jpg"))
 {
     $img_file = $args[0]
 }
 
-$img = "https://github.com/iCakaaaa/diplomWorkAI/blob/a391a3e72a6541e1510c84f91ccf8699a6c3b172/training-behavior.jpg"
+$img = "https://github.com/iCakaaaa/diplomWorkAI/blob/a391a3e72a6541e1510c84f91ccf8699a6c3b172/dog.png"
 
 $headers = @{}
 $headers.Add( "Ocp-Apim-Subscription-Key", $key )
