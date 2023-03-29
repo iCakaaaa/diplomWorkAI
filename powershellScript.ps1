@@ -3,7 +3,7 @@ $endpoint="https://dimplomworkinstanceofme.cognitiveservices.azure.com/"
 
 # Code to call Computer Vision service for image analysis
 $img_file = "dog.png"
-if ($args.count -gt 0 -And $args[0] -in ("dog.png"))
+if ($args.count -gt 0 -And $args[0] -in ("dog.png", "dog.png", "dog.png", "dog.png"))
 {
     $img_file = $args[0]
 }
