@@ -9,7 +9,7 @@ if ($args.count -gt 0 -And $args[0] -in ("dog.png"))
     $img_file = $args[0]
 }
 
-$img = {"url":"https://github.com/iCakaaaa/diplomWorkAI/blob/ea56d3848c302d90bb69cbad25c080e8fae13789/data/vision/dog.png"}
+$img = "https://github.com/iCakaaaa/diplomWorkAI/blob/ea56d3848c302d90bb69cbad25c080e8fae13789/data/vision/dog.png"
         
 $headers = @{}
 $headers.Add( "Ocp-Apim-Subscription-Key", $key )
